@@ -1,0 +1,65 @@
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    background-color: white;
+    width: 600px;
+    min-height: 100vh;
+    text-align: left;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+body {
+    background-color: green;
+    margin: 0;
+}
+
+.preparazione
+{
+    padding-left: 20px;
+    background-color:aquamarine;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 30px;
+}
+.ingredienti{
+    padding: left 20px;
+    text-align: left;
+    line-height: 30px;
+}
+.istruzioni{
+    text-align: left;
+}
+
+li{
+    line-height: 25px;
+    text-align: left;
+}
+
+.valori{
+    text-align: left;
+}
+
+.dati{
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+}
+  
+div.dati b {
+    margin-left: 200px;
+    white-space: pre;
+}
